@@ -1,0 +1,100 @@
+.navbar {
+  background-color: #0a3622;
+  display: block;
+}
+
+.brand-container {
+  background-image: url("Bali-stay.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  border: solid 10px black;
+}
+
+.brand-title {
+  padding-left: 3em;
+  margin-top: 20em;
+}
+
+.brand-row {
+  padding: 1.5rem;
+  display: grid;
+  grid-template: fit-content(100px) fit-content(100%) / fit-content(100px) fit-content(
+      100%
+    );
+  color: #f6f8f2;
+}
+
+.logo-container {
+  grid-row: 1 / 3;
+  grid-column: 1 / 2;
+  display: flex;
+  align-content: center;
+  margin-right: 1rem;
+}
+
+.brand-name {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  font-size: 5rem;
+  font-family: Helvetica, sans-serif;
+}
+
+.tagline {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  font-size: 1.5rem;
+}
+
+.circle-container {
+  grid-row: 1 / 3;
+  grid-column: 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services {
+  margin: auto 15rem;
+}
+
+.relax,
+.refresh,
+.recharge {
+  margin-top: 5rem;
+}
+
+.refresh-text {
+  padding-left: 0rem;
+}
+
+h2 {
+  display: inline-block;
+}
+
+.relax-img,
+.refresh-img,
+.recharge-img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.book-now {
+  background-image: url("palm-trees.jpg");
+  background-size: 100%;
+  height: 20rem;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.book-cta {
+  margin-left: 10%;
+  color: white;
+}
+
+.book-head {
+  font-size: 3rem;
+  margin-bottom: 0.75em;
+}
