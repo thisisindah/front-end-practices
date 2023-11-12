@@ -1,0 +1,130 @@
+:root {
+  --main-header-color: #474747;
+  --main-text-color: #878787;
+  --code-color: rgba(211, 211, 211, 0.5);
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--main-text-color);
+  font-family: "DM Sans", sans-serif;
+  line-height: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  color: var(--main-header-color);
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+
+#navbar {
+  background-color: var(--code-color);
+  height: 100vh;
+  padding: 0 1.5rem;
+  margin: 0;
+
+  position: fixed;
+}
+
+#navbar div {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-link {
+  color: var(--main-text-color);
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.nav-link:hover {
+  background-color: var(--main-header-color);
+  color: white;
+  border-radius: 5px;
+}
+
+#main-doc {
+  margin-left: 300px;
+  padding: 0 25px;
+  z-index: 1;
+}
+
+p,
+ul {
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+
+code {
+  background-color: var(--code-color);
+  color: black;
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+#reference ul {
+  margin: 0;
+  padding-bottom: 3rem;
+}
+
+#reference a {
+  color: var(--main-header-color);
+}
+
+#reference a:hover {
+  background-color: var(--main-header-color);
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  #navbar {
+    height: 30vh;
+    position: static;
+  }
+
+  #navbar header {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.25rem;
+  }
+
+  #navbar .container-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 80%;
+    height: 15vh;
+    line-height: 0.25rem;
+    justify-content: center;
+  }
+
+  .nav-link:hover {
+    background-color: transparent;
+    color: red;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+
+  .main-section header {
+    font-size: 1.5rem;
+  }
+
+  p,
+  ul,
+  code {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+  }
+}

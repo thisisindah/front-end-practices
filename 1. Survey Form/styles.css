@@ -1,0 +1,90 @@
+body {
+  font-family: "Nunito", sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  background-image: url("https://cdn.pixabay.com/photo/2018/09/11/22/49/lake-3670864_1280.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  background-color: rgba(245, 222, 179, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#title {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 40px auto 0;
+}
+
+#description {
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  margin: 10px auto 20px;
+}
+
+label {
+  width: 100%;
+  margin: 10px auto;
+  max-width: 500px;
+  display: block;
+}
+
+#name,
+#email,
+#number {
+  background-color: #fdf8ef;
+  border: 0;
+  height: 2rem;
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+p {
+  margin: 20px auto 0;
+  font-size: 18px;
+}
+
+input[type="checkbox"] {
+  vertical-align: middle;
+}
+
+#dropdown {
+  background-color: #fdf8ef;
+  height: 2rem;
+  width: 50%;
+  margin: 5px 0;
+  padding: 5px;
+  color: grey;
+}
+
+textarea {
+  font-family: sans-serif;
+  background-color: #fdf8ef;
+  height: 5rem;
+  width: 100%;
+  padding: 5px;
+}
+
+#submit {
+  background-color: #312c23;
+  border: 0;
+  border-radius: 5px;
+  color: #fefbf7;
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.1rem;
+  margin: 20px auto;
+  padding: 5px;
+  width: 75%;
+}
+
+#submit:hover {
+  background-color: #ab9b7d;
+  color: #312c23;
+  font-weight: bold;
+}

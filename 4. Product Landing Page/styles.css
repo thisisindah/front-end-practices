@@ -1,0 +1,245 @@
+:root {
+  --page-background: rgb(255, 250, 221);
+  --header-background: rgb(255, 204, 112);
+  --navlink-text-color: rgb(44, 51, 51);
+  --footer-background: rgb(34, 102, 141);
+  --footer-text-color: rgb(142, 205, 221);
+}
+
+html {
+  box-sizing: border-box;
+  background-color: rgb(255, 250, 221);
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#header {
+  background-image: url("https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  position: fixed;
+}
+
+#header h1 {
+  color: black;
+  font-family: "Delius Unicase", cursive;
+  font-size: 3rem;
+  margin: 0;
+}
+
+#header-img {
+  height: 50%;
+}
+
+#nav-bar {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  padding-right: 2rem;
+  font-size: 1.25rem;
+}
+
+.nav-link {
+  color: var(--navlink-text-color);
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding-top: 2rem;
+}
+
+h2 {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 2rem;
+}
+
+#product-name {
+  font-family: "Delius Unicase", cursive;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.offers {
+  padding: 1rem 27%;
+  text-align: left;
+}
+
+.offer-name {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+#benefits {
+  background-image: url("https://images.unsplash.com/photo-1499561385668-5ebdb06a79bc?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center bottom;
+}
+
+.benefits {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem 20%;
+}
+
+.benefit {
+  background-color: rgba(172, 238, 255, 0.8);
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.pricing {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 1rem 3rem 0;
+}
+
+.package {
+  background-color: rgba(128, 128, 0, 0.75);
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.package-name {
+  font-family: "Delius Unicase", cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.line {
+  background-color: var(--page-background);
+  height: 1px;
+  width: 100%;
+}
+
+.package-details {
+  font-size: 0.8rem;
+  max-width: 400px;
+}
+
+.price {
+  color: var(--page-background);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.quantity {
+  font-size: 0.8rem;
+}
+
+.book-now {
+  background-color: var(--header-background);
+  border: 0;
+  border-radius: 5px;
+  color: var(--navlink-text-color);
+  font-family: "Inter", sans-serif;
+  font-size: 125%;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  padding: 0.5rem 2rem;
+}
+
+.book-now:hover {
+  background-color: rgb(230, 149, 0);
+}
+
+.disclaimer {
+  color: gray;
+  font-size: 0.8rem;
+  font-style: italic;
+  line-height: 1rem;
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-right: 3rem;
+  text-align: right;
+}
+
+.more-details {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+  padding-top: 1rem;
+}
+
+#form {
+  padding-bottom: 3rem;
+}
+
+#email {
+  font-family: "Didact Gothic", sans-serif;
+  padding: 0.5rem 10rem 0.5rem 0.5rem;
+  border: none;
+}
+
+#submit {
+  font-family: "Didact Gothic", sans-serif;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+#submit:hover {
+  background-color: gray;
+  color: white;
+}
+
+footer {
+  background-color: var(--footer-background);
+  color: var(--footer-text-color);
+  font-size: 75%;
+  line-height: 1.25rem;
+  margin: 0;
+  padding: 2rem;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 1.5rem;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: beige;
+  }
+  #nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing {
+    grid-template-columns: 1fr;
+    padding: 0 2rem;
+  }
+  .package-details {
+    max-width: 0;
+  }
+}

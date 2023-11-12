@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+  font-family: "Mulish", sans-serif;
+  margin: 5rem;
+}
+
+h1 {
+  font-family: "Major Mono Display", monospace;
+  font-size: 3rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#image {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#img-caption {
+  font-size: 80%;
+  font-style: italic;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Major Mono Display", monospace;
+  font-size: 1.5rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+#tribute-info {
+  margin: auto 15rem;
+  padding: 0;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  margin: 1.5rem 0;
+}
+
+.year,
+.activity {
+  background-color: #efefef;
+  height: max-content;
+  padding: 10px 0;
+}
+
+.year {
+  font-size: 1.25rem;
+}
+
+#tribute-quotes,
+#more-info {
+  margin: auto 15rem;
+}
+
+#tribute-quotes {
+  line-height: 2rem;
+  padding: 2rem 2rem;
+  font-style: italic;
+}
+
+.quote-piece {
+  text-decoration: underline;
+}
+
+#more-info {
+  border: 1px solid black;
+  margin: 1em 0 5em;
+  text-align: center;
+}
+
+#tribute-link:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) and (min-width: 200px) {
+  #tribute-info {
+    margin: 0;
+    text-align: left;
+    line-height: 1.25rem;
+  }
+
+  .year,
+  .activity {
+    padding: 0;
+  }
+
+  .year {
+    font-size: 1.25rem;
+  }
+
+  #tribute-quotes,
+  #more-info {
+    margin: auto;
+  }
+
+  #tribute-quotes {
+    padding: 2rem 0;
+    line-height: normal;
+    text-align: justify;
+  }
+
+  #more-info {
+    font-size: 0.9rem;
+    padding: auto 1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    margin: 0;
+  }
+
+  #tribute-info {
+    margin: auto 10rem;
+    text-align: left;
+    line-height: 1.25rem;
+  }
+
+  .year {
+    font-size: 1.25rem;
+  }
+
+  #tribute-quotes,
+  #more-info {
+    margin: auto 10rem;
+  }
+
+  #tribute-quotes {
+    padding: 2rem 0;
+    line-height: normal;
+    text-align: justify;
+  }
+
+  #more-info {
+    font-size: 0.9rem;
+    padding: auto 1rem;
+    text-align: center;
+  }
+}

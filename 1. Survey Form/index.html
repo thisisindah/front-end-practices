@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="title">Daily Check Up Form</h1>
+    <p id="description">So, how are you today?</p>
+    <form id="survey-form">
+      <label id="name-label" for="name">
+        Name
+        <input id="name" type="text" placeholder="Enter your name" required />
+      </label>
+      <label id="email-label" for="email">
+        Email
+        <input
+          id="email"
+          type="email"
+          placeholder=" Enter your email"
+          required
+        />
+      </label>
+      <label id="number-label" for="number">
+        Age
+        <input
+          id="number"
+          type="number"
+          min="13"
+          max="120"
+          placeholder="Insert your age"
+          required
+        />
+      </label>
+      <p class="gender-label">What is your gender?</p>
+      <label for="radio-button1"
+        ><input id="radio-button1" type="radio" value="1" name="gender" />
+        Male</label
+      >
+      <label for="radio-button2"
+        ><input id="radio-button2" type="radio" value="2" name="gender" />
+        Female</label
+      >
+      <label for="radio-button3"
+        ><input id="radio-button3" type="radio" value="3" name="gender" />
+        Rather not say</label
+      >
+      <p class="day">What day is this form filled?</p>
+      <select id="dropdown">
+        <option>Monday</option>
+        <option>Tuesday</option>
+        <option>Wednesday</option>
+        <option>Thursday</option>
+        <option>Friday</option>
+        <option>Saturday</option>
+        <option>Sunday</option>
+      </select>
+      <p>Pick a statement that describes your day!</p>
+      <label><input type="checkbox" value="1" /> It was horrible!</label>
+      <label><input type="checkbox" value="2" /> It was meh.</label>
+      <label><input type="checkbox" value="3" /> It was good...</label>
+      <label><input type="checkbox" value="4" /> It was great!</label>
+      <label><input type="checkbox" value="5" /> It was spectacular!!</label>
+      <p>Describe your day:</p>
+      <textarea
+        placeholder="Today I went to a cafe and got my coffee..."
+      ></textarea>
+      <input type="submit" id="submit" />
+    </form>
+  </body>
+</html>
