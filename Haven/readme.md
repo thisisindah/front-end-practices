@@ -43,6 +43,7 @@ Future enhancements are envisioned to turn the page into a fully functioning web
   <li>Interactive Map: Include an interactive map showcasing nearby attractions and points of interest.</li>
   <li>Virtual Tour: Implement a virtual tour feature, enabling users to explore the hotel and resort virtually.
 </li>
+</ol>
 
   These future enhancements aim to further enrich the user's interaction with Haven, providing additional functionality and features to make their virtual visit even more compelling.
 
