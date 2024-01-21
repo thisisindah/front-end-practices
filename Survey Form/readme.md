@@ -1,6 +1,6 @@
 # Survey Form
 
-This technical documentation page project was created as one of my responsive web design practices on <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design">freeCodeCamp</a>. The page is a project crafted to facilitate quick and easy daily check-ins or journaling. It is designed to serve as a user-friendly survey form, allowing people to share their daily experiences, moods, or any other relevant information in a straightforward manner.
+This technical documentation page project was created as one of my responsive web design practices on <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design">freeCodeCamp</a>. The page is a project crafted to facilitate quick and easy daily check-ups or journaling. It is designed to serve as a user-friendly survey form, allowing people to share their daily experiences, moods, or any other relevant information in a straightforward manner.
 
 ## Technologies Used
 
@@ -25,11 +25,11 @@ To view this project locally, you need to download <strong>front-end-practices</
 ## Future Enhancements
 Potential improvements include:
 - Interactive Features: Implement interactive elements to allow users submit input into form and enhance the overall experience.
-- User Authentication: Introduce user accounts to allow for personalized tracking of daily check-ins.
+- User Authentication: Introduce user accounts to allow for personalized tracking of daily check-ups.
 - Data Visualization: Incorporate charts or graphs to visually represent trends and patterns in daily submissions.
-- Mobile App Integration: Explore the development of a mobile application for even more convenient daily check-ins on-the-go.
+- Mobile App Integration: Explore the development of a mobile application for even more convenient daily check-ups on-the-go.
 
-These future enhancements aim to make the Daily Check-In Survey Form Page an even more valuable and versatile tool for users seeking regular self-assessment and reporting.
+These future enhancements aim to make the Daily Check-Up Survey Form Page an even more valuable and versatile tool for users seeking regular self-assessment and reporting.
 ## Author
 
 Indah Setiawan (<a href="helloindahsetiawan@gmail.com">helloindahsetiawan@gmail.com</a>)
