@@ -18,7 +18,7 @@ Haven is a responsive landing page designed and implemented using HTML and CSS. 
 
 ## Page Sample
 ![Haven - 1](https://github.com/thisisindah/front-end-practices/assets/121715790/9f92be99-f09c-4e31-8a5e-2f283e03a0aa)
-![Haven - 2](https://github.com/thisisindah/front-end-practices/assets/121715790/44457a0e-69d2-48b7-9cdd-6f3ea3ec5e9f)
+![Haven - 2](https://github.com/thisisindah/front-end-practices/assets/121715790/a2d9abe6-9549-4df8-b02b-e690ec74e6cd)
 ![Haven - 3](https://github.com/thisisindah/front-end-practices/assets/121715790/c6f45cb1-bdba-40de-8f3d-9eaca33d9c09)
 ![Haven - 4](https://github.com/thisisindah/front-end-practices/assets/121715790/7ea395de-0ebf-41d6-b1dc-3b645b188172)
 
@@ -49,5 +49,4 @@ Future enhancements are envisioned to turn the page into a fully functioning web
 
 ## Author
 
-Indah Setiawan
-<a href="helloindahsetiawan@gmail.com">helloindahsetiawan@gmail.com</a>
+Indah Setiawan (<a href="helloindahsetiawan@gmail.com">helloindahsetiawan@gmail.com</a>)
