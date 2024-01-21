@@ -27,8 +27,8 @@ Haven is a responsive landing page designed and implemented using HTML and CSS. 
 To view this project locally, you need to download <strong>front-end-practices repository</strong> first.
 
 <ul>
-  <li>On your browser search bar, type <a href="https://github.com/thisisindah/front-end-practices">https://github.com/thisisindah/front-end-practices</a> 
-Click <strong><> Code</strong>.</li>
+  <li>On your browser search bar, type <a href="https://github.com/thisisindah/front-end-practices">https://github.com/thisisindah/front-end-practices</a></li> 
+<li></li>Click <strong><> Code</strong>.</li>
 <li>Click <strong>Download ZIP</strong>, then choose a folder where you want to save the downloaded repository</li>
 <li>Extract the ZIP folder and click <strong>Haven</strong> folder</li>
 </li>Open the <strong>index.html</strong> file using your browser</li>
