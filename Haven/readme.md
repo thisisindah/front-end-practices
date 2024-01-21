@@ -45,3 +45,6 @@ Future enhancements are envisioned to turn the page into a fully functioning web
 </li>
 
   These future enhancements aim to further enrich the user's interaction with Haven, providing additional functionality and features to make their virtual visit even more compelling.
+
+## Author
+Indah Setiawan (<a href="helloindahsetiawan@gmail.com">helloindahsetiawan@gmail.com</a>)
