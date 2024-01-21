@@ -28,8 +28,10 @@ To view this project locally, you need to download <strong>front-end-practices r
 
 <ul>
   <li>On your browser search bar, type <a href="https://github.com/thisisindah/front-end-practices">https://github.com/thisisindah/front-end-practices</a></li> 
-<li></li>Click <strong><> Code</strong>.</li>
+<li>Click <strong><> Code</strong>.</li>
+![image1](https://github.com/thisisindah/front-end-practices/assets/121715790/38e2b438-78b9-41b2-a5eb-51c0c2f051ac)  
 <li>Click <strong>Download ZIP</strong>, then choose a folder where you want to save the downloaded repository</li>
+  ![image2](https://github.com/thisisindah/front-end-practices/assets/121715790/15fd3fda-d4d9-4abd-93ab-2556d4771dd0)
 <li>Extract the ZIP folder and click <strong>Haven</strong> folder</li>
 </li>Open the <strong>index.html</strong> file using your browser</li>
 </ul>
