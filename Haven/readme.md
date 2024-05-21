@@ -17,7 +17,7 @@ Haven is a responsive landing page designed and implemented using HTML and CSS. 
 - Copyright and social media info
 
 ## Page View
-![Haven - Result](https://github.com/thisisindah/front-end-practices/assets/121715790/d49fb6fe-2701-4e46-8c82-af8d2c6ede57)
+![Haven - Result](https://github.com/thisisindah/front-end-practices/assets/121715790/6a68cb5e-00b4-4ddb-894c-28434724d4ad)
 
 ## How to View
 
